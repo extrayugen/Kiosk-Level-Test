@@ -7,15 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D99988FA-FFCB-4B75-ACA2-FF1450B230D1"
+            uuid = "41A64ABE-B77D-4531-8419-D0203298F771"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Kiosk Level Test/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "4"
-            endingLineNumber = "4"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>
@@ -23,49 +23,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "46E2DA7F-ADD4-4F52-9B11-54E2DC381D1F"
+            uuid = "7E16B596-333E-474E-9B0C-66E41564C38B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Kiosk Level Test/main.swift"
+            filePath = "Kiosk Level Test/Lv2.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3"
-            endingLineNumber = "3"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
             landmarkName = "unknown"
             landmarkType = "0">
-            <Locations>
-               <Location
-                  uuid = "46E2DA7F-ADD4-4F52-9B11-54E2DC381D1F - afec2d1c5f6b8772"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "main"
-                  moduleName = "Kiosk Level Test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/t2023-m0031/Jooyeong/Practice/Kiosk%20Level%20Test/Kiosk%20Level%20Test/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "4"
-                  endingLineNumber = "4"
-                  offsetFromSymbolStart = "8">
-               </Location>
-               <Location
-                  uuid = "46E2DA7F-ADD4-4F52-9B11-54E2DC381D1F - afec2d1c5f6b8751"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "main"
-                  moduleName = "Kiosk Level Test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/t2023-m0031/Jooyeong/Practice/Kiosk%20Level%20Test/Kiosk%20Level%20Test/main.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "3"
-                  endingLineNumber = "3"
-                  offsetFromSymbolStart = "8">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -7,7 +7,7 @@
 */
 
 // 버거 클래스
-class Burger {
+class Burger_Lv2 {
     var name: String
     var price: Double
     var description: String
@@ -24,7 +24,7 @@ class Burger {
 }
 
 // 아이스크림 클래스
-class IceCream {
+class IceCream_Lv2 {
     var name: String
     var price: Double
     var description: String
@@ -41,7 +41,7 @@ class IceCream {
 }
 
 // 음료 클래스
-class Drink {
+class Drink_Lv2 {
     var name: String
     var price: Double
     var description: String
@@ -58,7 +58,7 @@ class Drink {
 }
 
 // 맥주 클래스
-class Beer {
+class Beer_Lv2 {
     var name: String
     var price: Double
     var description: String
@@ -74,6 +74,20 @@ class Beer {
     }
 }
 
+// 주문 클래스
+class Order_Lv2 {
+    var items: [Any]
+    
+    init(items: [Any]) {
+        self.items = items
+    }
+    
+    func add(item: Any){
+        items.append(item)
+    }
+}
+
+// 메인 함수
 func mainLv2() {
     while true {
         printMainMenu()
@@ -86,7 +100,7 @@ func mainLv2() {
             case 1:
                 printBurgersMenu()
             case 2:
-                printFrozenCustardMenu()
+                printIceCreamMenu()
             case 3:
                 printDrinksMenu()
             case 4:

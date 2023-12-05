@@ -7,19 +7,22 @@
 
 import Foundation
 
-// 메뉴판 출력 함수
+// 메뉴판 출력 함수(버거, 아이스크림, 음료, 맥주)
 func printMainMenu() {
     print("""
     
     [ SHAKESHACK MENU ]
     1. Burgers         | 앵거스 비프 통살을 다져만든 버거
-    2. Frozen Custard  | 매장에서 신선하게 만드는 아이스크림
+    2. Ice Cream       | 매장에서 신선하게 만드는 아이스크림
     3. Drinks          | 매장에서 직접 만드는 음료
     4. Beer            | 뉴욕 브루클린 브루어리에서 양조한 맥주
+    5. 계산하기
     0. 종료            | 프로그램 종료
 
     """)
 }
+
+
 
 // 메인 함수
 func mainLv0() {
@@ -32,7 +35,7 @@ func mainLv0() {
             case 1:
                 print("Burgers 메뉴를 선택했습니다.")
             case 2:
-                print("Frozen Custard 메뉴를 선택했습니다.")
+                print("Ice Cream 메뉴를 선택했습니다.")
             case 3:
                 print("Drinks 메뉴를 선택했습니다.")
             case 4:
@@ -48,3 +51,4 @@ func mainLv0() {
         }
     }
 }
+

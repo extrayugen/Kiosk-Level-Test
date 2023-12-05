@@ -11,6 +11,7 @@
 		1F27D16B2B1E2000005ECB32 /* Lv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27D16A2B1E2000005ECB32 /* Lv1.swift */; };
 		1F27D16D2B1E242C005ECB32 /* Lv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27D16C2B1E242C005ECB32 /* Lv2.swift */; };
 		1F27D16F2B1E2753005ECB32 /* Lv0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27D16E2B1E2753005ECB32 /* Lv0.swift */; };
+		1FEAEE472B1EBF9D00582CBD /* Lv3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAEE462B1EBF9D00582CBD /* Lv3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		1F27D16A2B1E2000005ECB32 /* Lv1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lv1.swift; sourceTree = "<group>"; };
 		1F27D16C2B1E242C005ECB32 /* Lv2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lv2.swift; sourceTree = "<group>"; };
 		1F27D16E2B1E2753005ECB32 /* Lv0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lv0.swift; sourceTree = "<group>"; };
+		1FEAEE462B1EBF9D00582CBD /* Lv3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lv3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				1F27D16E2B1E2753005ECB32 /* Lv0.swift */,
 				1F27D16A2B1E2000005ECB32 /* Lv1.swift */,
 				1F27D16C2B1E242C005ECB32 /* Lv2.swift */,
+				1FEAEE462B1EBF9D00582CBD /* Lv3.swift */,
 			);
 			path = "Kiosk Level Test";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			files = (
 				1F27D1642B1E1FF6005ECB32 /* main.swift in Sources */,
 				1F27D16B2B1E2000005ECB32 /* Lv1.swift in Sources */,
+				1FEAEE472B1EBF9D00582CBD /* Lv3.swift in Sources */,
 				1F27D16F2B1E2753005ECB32 /* Lv0.swift in Sources */,
 				1F27D16D2B1E242C005ECB32 /* Lv2.swift in Sources */,
 			);
