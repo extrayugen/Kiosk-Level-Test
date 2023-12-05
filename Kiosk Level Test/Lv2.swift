@@ -1,10 +1,14 @@
 /*
 
-필요한 클래스들을 설계해요 (버거, 아이스크림, 음료, 맥주, 주문, 공통 등)
-클래스들의 프로퍼티와 메소드를 정의해요
-메소드를 이용해서 Lv1의 코드를 개선해요
+ <Lv2>
+ 
+ - 필요한 클래스들을 설계해요 (버거, 아이스크림, 음료, 맥주, 주문, 공통 등)
+ - 클래스들의 프로퍼티와 메소드를 정의해요
+ - 메소드를 이용해서 Lv1의 코드를 개선해요
 
 */
+
+
 
 // 버거 클래스
 class Burger_Lv2 {
@@ -93,9 +97,8 @@ func mainLv2() {
         printMainMenu()
         print("\n\n메뉴를 선택해주세요: ", terminator: "")
         
+        // 입력값이 숫자로 변환될 수 있는지 확인
         if let input = readLine(), let menuNumber = Int(input) {
-            
-            // 입력값이 숫자로 변환될 수 있는지 확인
             switch menuNumber {
             case 1:
                 printBurgersMenu()

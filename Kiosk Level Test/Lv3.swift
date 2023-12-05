@@ -1,14 +1,16 @@
 /*
  
- Lv2에서 설계한 클래스들을 상속 관계를 가지도록 변경해요 (Burger도 부모 클래스를 가질 수 있을지 고민해요!)
- 하나의 객체 리스트로 모든 메뉴들을 관리하도록 수정해요 (List)
+ <Lv3>
+ 
+  - Lv2에서 설계한 클래스들을 상속 관계를 가지도록 변경해요 (Burger도 부모 클래스를 가질 수 있을지 고민해요!)
+  - 하나의 객체 리스트로 모든 메뉴들을 관리하도록 수정해요 (List)
  
  */
 
 import Foundation
 
 // 메뉴 클래스.  <- 부모 클래스
-class Menu {
+class Menu_Lv3 {
     var name: String
     var price: Double
     var description: String
@@ -25,20 +27,20 @@ class Menu {
 }
 
 // 버거, 아이스크림, 음료, 맥주, 주문 클래스 <- 자식 클래스
-class Burger_Lv3: Menu{
+class Burger_Lv3: Menu_Lv3{
 }
 
-class IceCream_Lv3: Menu{
+class IceCream_Lv3: Menu_Lv3{
 }
 
-class Drink_Lv3: Menu {
+class Drink_Lv3: Menu_Lv3 {
 }
 
-class Beer_Lv3: Menu {
+class Beer_Lv3: Menu_Lv3 {
 }
 
 class Order_Lv3{
-    var items: [Menu]
+    var items: [Menu_Lv3]
     init() {
         
         // items 배열을 빈 배열로 초기화
@@ -46,7 +48,7 @@ class Order_Lv3{
     }
     
     // 메뉴 아이템 담는 함수
-    func add(item: Menu){
+    func add(item: Menu_Lv3){
         items.append(item)
     }
     
@@ -69,7 +71,7 @@ class Order_Lv3{
 }
 
 
-
+// 변수 생성
 let burger1 = Burger_Lv3(name: "ShackBurger", price: 6.9, description: "토마토, 양상추, 쉑소스가 토핑된 치즈버거")
 let burger2 = Burger_Lv3(name: "SmokeShack", price: 8.9, description: "베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거")
 let burger3 = Burger_Lv3(name: "Shroom burger", price: 9.4, description: "몬스터 치즈와 체다 치즈로 속을 채운 베지테리안 버거")
@@ -96,7 +98,9 @@ let bear5 = Beer_Lv3(name: "bear1", price: 5.4, description: "맥주 5")
 
 // 메인 함수
 func mainLv3() {
-    let order = Order_Lv3() // 주문 객체 생성
+    
+    // 주문 객체 생성
+    let order = Order_Lv3()
     
     while true {
         printMainMenu()

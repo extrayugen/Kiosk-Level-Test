@@ -1,6 +1,11 @@
 import Foundation
 
-//레벨 선택
+//mainLv0()
+//mainLv1()
+//mainLv2()
+//mainLv3()
+
+
 print("0. Lv0")
 print("1. Lv1")
 print("2. Lv2")

@@ -1,15 +1,21 @@
 /*
  
+ <Lv0>
+ 
  - 요구사항별로 상세 기능을 생각해요
  - 사용하면서 발생할 수 있는 예외사항들을 생각해요
  
  */
+
 
 import Foundation
 
 // 메뉴판 출력 함수(버거, 아이스크림, 음료, 맥주)
 func printMainMenu() {
     print("""
+    
+    "SHAKESHACK BURGER 에 오신걸 환영합니다."
+    아래 메뉴판을 보시고 메뉴를 골라 입력해주세요.
     
     [ SHAKESHACK MENU ]
     1. Burgers         | 앵거스 비프 통살을 다져만든 버거
