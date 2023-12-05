@@ -9,6 +9,7 @@
 
 import Foundation
 
+//메뉴 클래스
 class Menu_Lv4{
     var name: String
     var price: Double
@@ -23,45 +24,46 @@ class Menu_Lv4{
     func displayInfo() {
         print("\(name) | W \(price) | \(description)")
     }
+}
+
+// 주문 클래스
+class Order_Lv4{
+    var items: [Menu_Lv4]
+    var balnce: Double
     
-    class Order_Lv4{
-        var items: [Menu_Lv4]
-        var balnce: Double
-        
-        init(balnce: Double) {
-            self.items = []
-            self.balnce = balnce
-        }
-        
-        // 메뉴 추가 함수
-        func add(item: Menu_Lv4) {
-            items.append(item)
-        }
-        
-        // 총 가격 계산 함수
-        func calculateTotal() -> Double{
-            var total: Double = 0.0
-            for item in items {
-                total += item.price
-            }
-            return total
-        }
-        
-        // 구매 가능 상태 확인 함수
-        func isBuyable(){
-        }
-        
-        func menuOrder(order: Order_Lv4){
-        }
-        
-        func mainLv4(){
-            let myBalnce: Double = 20000
-            
-            while true{
-                print("현재 잔액 : \(myBalnce)")
-                
-            }
-        }
+    init(balnce: Double) {
+        self.items = []
+        self.balnce = balnce
     }
     
+    // 메뉴 추가 함수
+    func add(item: Menu_Lv4) {
+        items.append(item)
+    }
+    
+    // 총 가격 계산 함수
+    func calculateTotal() -> Double{
+        var total: Double = 0.0
+        for item in items {
+            total += item.price
+        }
+        return total
+    }
+    
+    // 구매 가능 상태 확인 함수
+    func isBuyable(){
+    }
+    
+    func menuOrder(order: Order_Lv4){
+    }
+    
+}
+
+func mainLv4(){
+    let myBalnce: Double = 20000
+    
+    while true{
+        print("현재 잔액 : \(myBalnce)")
+        
+    }
 }
